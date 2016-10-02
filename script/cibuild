@@ -1,0 +1,25 @@
+#!/bin/bash -e
+
+if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
+    START_CWD="${PWD}"
+else
+    START_CWD="${TRAVIS_BUILD_DIR}"
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
+
+cd "${START_CWD}" || exit 1
+
+# Build it with Cargo
+
+echo "INFO: Building.."
+cargo build
+
+echo "INFO: Testing.."
+cargo test
+
+echo "INFO: Building docs.."
+# make doc
+# make doc_info
+
+exit
