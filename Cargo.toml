@@ -20,3 +20,6 @@ path = "src/bin/jvm-rs.rs"
 default=[]
 
 [dependencies]
+log = "0.3.6"
+log4rs = { version = "*", features = ["toml", "yaml"] }
+
