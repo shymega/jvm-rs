@@ -11,3 +11,7 @@ I am also trying to juggle this studying with my other FLOSS projects,
 college and personal things, and hence, it might be a while before
 things get underway.
 
+## Usage
+
+`jvm-rs` is not ready to be used yet.
+
