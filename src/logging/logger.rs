@@ -17,8 +17,7 @@ fn init_logger_default() {
         .build(root)
         .expect("Unable to build log4rs configuration.");
 
-    log4rs::init_config(log4rs_config).expect("Unable to load
-    log4rs.");
+    log4rs::init_config(log4rs_config).expect("Unable to load log4rs.");
 
     warn!("Could *not* load logging. Had to use defaults.");
     warn!("Please fix this error.");
