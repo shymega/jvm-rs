@@ -8,4 +8,15 @@ keywords = ["jvm", "rust"]
 readme= "README.md"
 authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 
+[lib]
+name = "jvmrs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "jvm-rs"
+path = "src/bin/jvm-rs.rs"
+
+[features]
+default=[]
+
 [dependencies]
