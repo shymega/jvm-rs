@@ -15,3 +15,13 @@ things get underway.
 
 `jvm-rs` is not ready to be used yet.
 
+## Community
+
+There is no current community around this yet.
+
+When development starts fully, I *might* make an IRC channel -
+probably on Freenode.
+
+For now, please consider all 'communities' that claim to be affiliated
+with `jvm-rs` unaffiliated with this project.
+
