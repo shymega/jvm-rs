@@ -1,4 +1,4 @@
 # jvm-rs
 
-A JVM implemented in Rust.
-With an emphasis on performance and safety.
+`jvm-rs` is an JVM implemented in Rust, with an emphasis on
+performance and safety.
