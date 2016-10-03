@@ -21,7 +21,10 @@ default=[]
 
 [dependencies]
 log = "0.3.6"
-log4rs = { version = "*", features = ["toml", "yaml"] }
+
+[dependencies.log4rs]
+version = "*"
+features = ["toml", "yaml"]
 
 [dependencies.clap]
 version = "2"
