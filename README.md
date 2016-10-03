@@ -19,9 +19,8 @@ things get underway.
 
 There is no current community around this yet.
 
-When development starts fully, I *might* make an IRC channel -
+When development starts fully, I _might_ make an IRC channel -
 probably on Freenode.
 
 For now, please consider all 'communities' that claim to be affiliated
 with `jvm-rs` unaffiliated with this project.
-
