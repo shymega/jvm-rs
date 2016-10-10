@@ -22,9 +22,6 @@ There is no current community around this yet.
 When development starts fully, I _might_ make an IRC channel -
 probably on Freenode.
 
-For now, please consider all 'communities' that claim to be affiliated
-with `jvm-rs` unaffiliated with this project.
-
 ## Status of development
 
 I am currently busy with college at the moment and due to that, I am
