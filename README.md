@@ -24,3 +24,11 @@ probably on Freenode.
 
 For now, please consider all 'communities' that claim to be affiliated
 with `jvm-rs` unaffiliated with this project.
+
+## Status of development
+
+I am currently busy with college at the moment and due to that, I am
+very limited on time.
+
+Hopefully when the workload of assignments comes down, I'll be able to
+hack on this some more.
