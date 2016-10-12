@@ -1,0 +1,22 @@
+[package]
+name = "jvm-rs-classfile"
+version = "0.1.0"
+description = "Classfile parser implemented in Rust."
+homepage = "https://github.com/shymega/jvm-rs"
+repository = "https://github.com/shymega/jvm-rs.git"
+keywords = ["jvm", "rust"]
+readme= "README.md"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+
+[lib]
+name = "classfile"
+path = "src/lib.rs"
+
+[features]
+default=[]
+
+[dependencies]
+log = "0.3.6"
+bitflags = "0.5"
+byteorder = "0.5"
+quick-error = "*"
