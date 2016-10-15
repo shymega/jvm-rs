@@ -20,12 +20,4 @@ things get underway.
 There is a IRC channel for this project on Freenode under the
 channel "#jvm-rs".
 
-
-## Status of development
-
-I am currently busy with college at the moment and due to that, I am
-very limited on time.
-
-Hopefully when the workload of assignments comes down, I'll be able to
-hack on this some more.
 Feel free to come here to discuss ideas, etc.
