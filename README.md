@@ -17,10 +17,9 @@ things get underway.
 
 ## Community
 
-There is no current community around this yet.
+There is a IRC channel for this project on Freenode under the
+channel "#jvm-rs".
 
-When development starts fully, I _might_ make an IRC channel -
-probably on Freenode.
 
 ## Status of development
 
@@ -29,3 +28,4 @@ very limited on time.
 
 Hopefully when the workload of assignments comes down, I'll be able to
 hack on this some more.
+Feel free to come here to discuss ideas, etc.
