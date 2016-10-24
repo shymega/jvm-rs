@@ -20,4 +20,4 @@ things get underway.
 There is a IRC channel for this project on Freenode under the
 channel "#jvm-rs".
 
-Feel free to come here to discuss ideas, etc.
+Feel free to come here to discuss ideas for jvm-rs.
