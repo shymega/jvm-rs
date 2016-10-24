@@ -13,7 +13,7 @@ things get underway.
 
 ## Usage
 
-`jvm-rs` is not ready to be used yet, check back soon.
+`jvm-rs` is not ready to be used yet, check back soon. Thanks.
 
 ## Community
 
