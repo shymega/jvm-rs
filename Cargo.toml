@@ -1,6 +1,7 @@
 [package]
 name = "jvm-rs"
 version = "0.1.0"
+license = "gpl-3.0"
 description = "JVM implemented in Rust, with an emphasis on performance and safety."
 homepage = "https://github.com/shymega/jvm-rs"
 repository = "https://github.com/shymega/jvm-rs.git"
