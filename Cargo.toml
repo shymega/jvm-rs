@@ -24,9 +24,8 @@ default=[]
 log = "0.3.6"
 
 [dependencies.log4rs]
-version = "*"
-features = ["toml", "yaml"]
+version = "0.5.0"
 
 [dependencies.clap]
-version = "2"
+version = "2.14.0"
 features = [ "suggestions", "color", "wrap_help"]
