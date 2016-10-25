@@ -3,6 +3,11 @@
 `jvm-rs` is an JVM implemented in Rust, with an emphasis on
 performance and safety.
 
+jvm-rs will use OpenJDK's `rt.jar` for the classpath to save lengthy
+re-implementing. Additionally, as jvm-rs is just a POC of a JVM in
+Rust with these specified goals, it is more logical to reuse existing
+works.
+
 ## Status
 
 This project is delayed right now, as it is waiting on several things-
