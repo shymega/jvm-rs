@@ -51,7 +51,10 @@ fn get_arguments() -> clap::ArgMatches<'static> {
 fn main() {
     let matches = get_arguments();
 
-    let log_config = matches.value_of("log_config").unwrap_or("./log4rs.yml");
+    let log_config = matches.value_of("log_config")
+        .unwrap_or("./log4rs.yml");
+
+
 
     init_logger(log_config);
 
