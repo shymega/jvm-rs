@@ -27,7 +27,9 @@ This project is delayed right now, as it is waiting on several things-
 
 ## Community
 
-There is a IRC channel for this project on Freenode under the
-channel "#jvm-rs".
+There is a IRC [channel][irc-chan] for this project on Freenode under the
+channel `#jvm-rs`.
 
 Feel free to come here to discuss ideas for jvm-rs.
+
+[irc-chan]: irc://chat.freenode.net:6697/jvm-rs
