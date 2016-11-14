@@ -29,7 +29,7 @@ fn get_arguments() -> clap::ArgMatches<'static> {
     let matches = App::new("jvm-rs")
         .version(VERSION)
         .author("Dom Rodriguez <shymega@shymega.org.uk>")
-        .about("JVM in Rust.")
+        .about("JVM written in Rust.")
         .arg(Arg::with_name("log_config")
             .short("lc")
             .long("log_config")
