@@ -14,13 +14,13 @@
 // along with jvm-rs.  If not, see <http://www.gnu.org/licenses/>
 
 extern crate clap;
-extern crate jvmrs;
+extern crate jvm;
 
 #[macro_use]
 extern crate log;
 extern crate log4rs;
 
-use jvmrs::logging::logger::init_logger;
+use jvm::logging::logger::init_logger;
 use clap::{Arg, App, SubCommand};
 
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");

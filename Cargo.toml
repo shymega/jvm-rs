@@ -1,5 +1,5 @@
 [package]
-name = "jvm-rs"
+name = "jvm"
 version = "0.1.0"
 license = "gpl-3.0"
 description = "JVM implemented in Rust, with an emphasis on performance and safety."
@@ -10,11 +10,11 @@ readme= "README.md"
 authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 
 [lib]
-name = "jvmrs"
+name = "jvm"
 path = "src/lib.rs"
 
 [[bin]]
-name = "jvm-rs"
+name = "jvm"
 path = "src/bin/jvm-rs.rs"
 
 [features]

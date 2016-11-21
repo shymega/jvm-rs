@@ -1,5 +1,5 @@
 [package]
-name = "jvm-rs-classfile"
+name = "jvm-classfile"
 version = "0.1.0"
 license = "gpl-3.0"
 description = "Classfile parser implemented in Rust."
