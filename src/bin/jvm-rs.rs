@@ -20,8 +20,9 @@ extern crate jvm;
 extern crate log;
 extern crate log4rs;
 
-use jvm::logging::logger::init_logger;
-use clap::{Arg, App, SubCommand};
+use jvm::logging::init_logger;
+
+use clap::{Arg, App};
 
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
