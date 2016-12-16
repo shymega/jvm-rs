@@ -27,7 +27,7 @@ use clap::{Arg, App};
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
 fn get_arguments() -> clap::ArgMatches<'static> {
-    let matches = App::new("jvm-rs")
+    App::new("jvm-rs")
         .version(VERSION)
         .author("Dom Rodriguez <shymega@shymega.org.uk>")
         .about("JVM written in Rust.")
@@ -44,9 +44,7 @@ fn get_arguments() -> clap::ArgMatches<'static> {
             .takes_value(false)
             .required(false)
             .help("Sets the level of logging verbosity."))
-        .get_matches();
-
-    return matches;
+        .get_matches()
 }
 
 fn main() {
