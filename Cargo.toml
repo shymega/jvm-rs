@@ -1,15 +1,13 @@
 [package]
-name = "jvm"
-version = "0.1.0"
-license = "gpl-3.0"
-
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 description = "JVM implemented in Rust, with an emphasis on performance and safety."
 homepage = "https://github.com/shymega/jvm-rs"
-repository = "https://github.com/shymega/jvm-rs.git"
 keywords = ["jvm", "rust"]
-
+license = "gpl-3.0"
+name = "jvm"
 readme= "README.md"
-authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+repository = "https://github.com/shymega/jvm-rs.git"
+version = "0.1.0"
 
 [lib]
 name = "jvm"
