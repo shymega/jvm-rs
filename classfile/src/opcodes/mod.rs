@@ -1,7 +1,3 @@
-pub fn test_fun() {
-    println!("Test");
-}
-
 #[allow(dead_code)]
 pub enum Opcodes {
     AALOAD = 0x32,
@@ -47,5 +43,10 @@ pub enum Opcodes {
     DMUL = 0x6b,
     DNEG = 0x77,
     DREM = 0x73,
-    DRETURN = 0xaf
+    DRETURN = 0xaf,
+    DSTORE = 0x39,
+    DSTORE0 = 0x47,
+    DSTORE1 = 0x48,
+    DSTORE2 = 0x49,
+    DSTORE3 = 0x4a,
 }
