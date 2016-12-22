@@ -26,3 +26,16 @@ addons:
       - gcc
       - binutils-dev
       - texinfo
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+  irc:
+    channels:
+      - "chat.freenode.net#jvm-rs"
+    nick: jvm-rs-travis
+    on_success: never
+    on_failure: always
+    use_notice: true
+    skip_join: false
