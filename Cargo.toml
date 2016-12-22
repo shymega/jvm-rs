@@ -5,7 +5,7 @@ homepage = "https://github.com/shymega/jvm-rs"
 keywords = ["jvm", "rust"]
 license = "gpl-3.0"
 name = "jvm"
-readme= "README.md"
+readme = "README.md"
 repository = "https://github.com/shymega/jvm-rs.git"
 version = "0.1.0"
 
@@ -22,6 +22,10 @@ default=[]
 
 [dependencies]
 log = "0.3.6"
+
+[dependencies.clippy]
+version = "*"
+optional = true
 
 [dependencies.log4rs]
 version = "0.5.0"
