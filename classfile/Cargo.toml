@@ -10,7 +10,7 @@ readme= "README.md"
 authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 
 [lib]
-name = "classfile"
+name = "jvm_classfile"
 path = "src/lib.rs"
 
 [features]
