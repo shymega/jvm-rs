@@ -1,6 +1,16 @@
 # JVM-rs
 
-## Summary
+## Status
+
+I'm taking a break from this project for now.
+
+Starting to wonder if I'm biting off more than I can chew. I don't exactly think
+this project will get further with just one developer, so for the time being,
+please consider this project to be _on hold_ until further notice.
+
+Thanks for checking it out though!
+
+## Project description
 
 `JVM-rs` is an JVM implemented in Rust, with an emphasis on
 performance and safety.
@@ -9,29 +19,3 @@ JVM-rs will use OpenJDK's `rt.jar` for the classpath to save lengthy
 re-implementing. Additionally, as JVM-rs is just a point of concept of
 a JVM in Rust with these specified goals, it is more logical to reuse
 existing works.
-
-## Status
-
-This project is delayed right now, as it is waiting on several things:
-
-1. @shymega (Me) to read through the JVM specification and then plan
-   how to implement the JVM.
-
-- Free time. I'm at college this year, studying many aspects of my
-   courses and bogged down with assignments.
-   
-UPDATE: Still bogged down with assignments, but I HAVE got the opcodes
-in an Enum. Frickin' loads of 'em.
-
-## Usage
-
-`JVM-rs` is not ready to be used yet, check back soon. Thanks.
-
-## Community
-
-There is a IRC [channel][irc-chan] for this project on Freenode under the
-channel `#jvm-rs`.
-
-Feel free to come here to discuss ideas for JVM-rs.
-
-[irc-chan]: irc://chat.freenode.net:6697/jvm-rs
