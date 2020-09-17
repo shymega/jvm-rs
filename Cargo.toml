@@ -1,38 +1,8 @@
-[package]
-authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
-description = "JVM implemented in Rust, with an emphasis on performance and safety."
-homepage = "https://github.com/shymega/jvm-rs"
-keywords = ["jvm", "rust"]
-license = "gpl-3.0"
-name = "jvm"
-readme = "README.md"
-repository = "https://github.com/shymega/jvm-rs.git"
-version = "0.1.0"
+[workspace]
+members = [
+    "bin/javac",
+    "lib/classfile_parser",
+]
 
-[lib]
-name = "jvm"
-path = "src/lib.rs"
-
-[[bin]]
-name = "jvm"
-path = "src/bin/jvm-rs.rs"
-
-[features]
-default=[]
-
-[dependencies]
-log = "0.3.6"
-
-[dependencies.clippy]
-version = "*"
-optional = true
-
-[dependencies.log4rs]
-version = "0.5.0"
-
-[dependencies.clap]
-version = "2.14.0"
-features = [ "suggestions", "color", "wrap_help"]
-
-[dependencies.jvm-classfile]
-path = "classfile"
+[profile.release]
+lto = "on"

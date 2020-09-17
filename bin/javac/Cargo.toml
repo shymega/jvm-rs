@@ -1,0 +1,31 @@
+[package]
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+description = "JVM implemented in Rust, with an emphasis on performance and safety."
+homepage = "https://github.com/shymega/jvm-rs"
+keywords = ["jvm", "rust"]
+license = "apache-2.0"
+name = "jvm_javac"
+readme = "README.md"
+repository = "https://github.com/shymega/jvm-rs.git"
+version = "0.1.0"
+
+[lib]
+name = "jvm_rs_javac"
+path = "src/lib.rs"
+
+[[bin]]
+name = "javac"
+path = "src/bin/javac.rs"
+
+[features]
+default = []
+
+[dependencies]
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[dependencies.clap]
+version = "2.14.0"
+features = [ "suggestions", "color", "wrap_help"]

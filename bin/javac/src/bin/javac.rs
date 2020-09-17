@@ -1,4 +1,4 @@
-// This file is part of jvm-rs.
+//! This file is part of jvm-rs.
 
 // jvm-rs is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -14,15 +14,8 @@
 // along with jvm-rs.  If not, see <http://www.gnu.org/licenses/>
 
 extern crate clap;
-extern crate jvm;
 
-#[macro_use]
-extern crate log;
-extern crate log4rs;
-
-use jvm::logging::init_logger;
-
-use clap::{Arg, App};
+use clap::App;
 
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
@@ -31,33 +24,9 @@ fn get_arguments() -> clap::ArgMatches<'static> {
         .version(VERSION)
         .author("Dom Rodriguez <shymega@shymega.org.uk>")
         .about("JVM written in Rust.")
-        .arg(
-            Arg::with_name("log_config")
-                .short("lc")
-                .long("log_config")
-                .value_name("FILE")
-                .help("Sets a configuration file for the logger.")
-                .takes_value(true)
-                .required(false),
-        )
-        .arg(
-            Arg::with_name("v")
-                .short("v")
-                .multiple(true)
-                .takes_value(false)
-                .required(false)
-                .help("Sets the level of logging verbosity."),
-        )
         .get_matches()
 }
 
 fn main() {
-    let matches = get_arguments();
-
-    let log_config = matches.value_of("log_config").unwrap_or("./log4rs.yml");
-
-    init_logger(log_config);
-
-    info!("jvm-rs starting NOW..");
+    let _matches = get_arguments();
 }
-l
