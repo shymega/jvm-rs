@@ -2,11 +2,9 @@
 
 ## Status
 
-I'm taking a break from this project for now.
-
-Starting to wonder if I'm biting off more than I can chew. I don't exactly think
-this project will get further with just one developer, so for the time being,
-please consider this project to be _on hold_ until further notice.
+I'm not working on this project anymore. I think I bit off more than I can chew,
+but I really liked the idea of the JVM in Rust. Maybe one day I could return to
+it, but for now it's too much for a sole dev.
 
 Thanks for checking it out though!
 
